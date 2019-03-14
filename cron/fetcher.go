@@ -5,9 +5,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/urlooker/web/g"
-	"github.com/urlooker/web/model"
-	"github.com/urlooker/web/utils"
+	"urlooker/web/g"
+	"urlooker/web/model"
+	"urlooker/web/utils"
 )
 
 func GetDetectedItem() {

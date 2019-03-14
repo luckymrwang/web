@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	. "github.com/urlooker/web/store"
+	. "urlooker/web/store"
 )
 
 type Event struct {

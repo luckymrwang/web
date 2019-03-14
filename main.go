@@ -7,14 +7,14 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/urlooker/web/api"
-	"github.com/urlooker/web/cron"
-	"github.com/urlooker/web/g"
-	"github.com/urlooker/web/http"
-	"github.com/urlooker/web/http/cookie"
-	"github.com/urlooker/web/model"
-	"github.com/urlooker/web/sender"
-	"github.com/urlooker/web/store"
+	"urlooker/web/api"
+	"urlooker/web/cron"
+	"urlooker/web/g"
+	"urlooker/web/http"
+	"urlooker/web/http/cookie"
+	"urlooker/web/model"
+	"urlooker/web/sender"
+	"urlooker/web/store"
 )
 
 func prepare() {

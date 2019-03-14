@@ -3,8 +3,8 @@ package handler
 import (
 	"net/http"
 
-	"github.com/urlooker/web/g"
-	"github.com/urlooker/web/http/render"
+	"urlooker/web/g"
+	"urlooker/web/http/render"
 )
 
 func GetHostIpItem(w http.ResponseWriter, r *http.Request) {

@@ -4,10 +4,10 @@ import (
 	"github.com/codegangsta/negroni"
 	"github.com/gorilla/mux"
 
-	"github.com/urlooker/web/g"
+	"urlooker/web/g"
 	//"github.com/xpharos/web/http/cookie"
-	"github.com/urlooker/web/http/middleware"
-	"github.com/urlooker/web/http/render"
+	"urlooker/web/http/middleware"
+	"urlooker/web/http/render"
 )
 
 func Start() {

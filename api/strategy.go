@@ -1,7 +1,7 @@
 package api
 
 import (
-	"github.com/urlooker/web/model"
+	"urlooker/web/model"
 )
 
 type StrategyResponse struct {

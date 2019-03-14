@@ -8,7 +8,7 @@ import (
 
 	"github.com/astaxie/beego/httplib"
 
-	"github.com/urlooker/web/g"
+	"urlooker/web/g"
 )
 
 var transport *http.Transport = &http.Transport{}

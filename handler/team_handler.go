@@ -9,10 +9,10 @@ import (
 	"github.com/toolkits/str"
 	"github.com/toolkits/web"
 
-	"github.com/urlooker/web/http/errors"
-	"github.com/urlooker/web/http/param"
-	"github.com/urlooker/web/http/render"
-	"github.com/urlooker/web/model"
+	"urlooker/web/http/errors"
+	"urlooker/web/http/param"
+	"urlooker/web/http/render"
+	"urlooker/web/model"
 )
 
 func TeamsPage(w http.ResponseWriter, r *http.Request) {
@@ -89,7 +89,7 @@ func CreateTeamPost(w http.ResponseWriter, r *http.Request) {
 
 	isci := false
 	uids := make([]int64, 0)
-	for _, u := range uidSlice {
+	for _, u := range uidSlice[1:] {
 		if u == "" {
 			continue
 		}

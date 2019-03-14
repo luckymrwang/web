@@ -6,11 +6,11 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/urlooker/web/http/errors"
-	"github.com/urlooker/web/http/param"
-	"github.com/urlooker/web/http/render"
-	"github.com/urlooker/web/model"
-	"github.com/urlooker/web/utils"
+	"urlooker/web/http/errors"
+	"urlooker/web/http/param"
+	"urlooker/web/http/render"
+	"urlooker/web/model"
+	"urlooker/web/utils"
 )
 
 func AddStrategyGet(w http.ResponseWriter, r *http.Request) {

@@ -11,7 +11,7 @@ import (
 
 	"github.com/toolkits/str"
 
-	"github.com/urlooker/web/g"
+	"urlooker/web/g"
 )
 
 func Getkey(idc string, sid int) string {

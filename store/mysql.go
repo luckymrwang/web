@@ -6,7 +6,7 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/go-xorm/xorm"
 
-	"github.com/urlooker/web/g"
+	"urlooker/web/g"
 )
 
 var Orm *xorm.Engine
@@ -21,5 +21,4 @@ func InitMysql() {
 	}
 	Orm.SetMaxIdleConns(cfg.Mysql.Idle)
 	Orm.SetMaxOpenConns(cfg.Mysql.Max)
-
 }

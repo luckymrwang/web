@@ -4,10 +4,10 @@ import (
 	"log"
 	"time"
 
-	"github.com/urlooker/web/g"
-	"github.com/urlooker/web/model"
-	"github.com/urlooker/web/sender"
-	"github.com/urlooker/web/utils"
+	"urlooker/web/g"
+	"urlooker/web/model"
+	"urlooker/web/sender"
+	"urlooker/web/utils"
 )
 
 type SendResultReq struct {

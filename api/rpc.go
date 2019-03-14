@@ -6,7 +6,7 @@ import (
 	"net/rpc"
 	"net/rpc/jsonrpc"
 
-	"github.com/urlooker/web/g"
+	"urlooker/web/g"
 )
 
 type Web int

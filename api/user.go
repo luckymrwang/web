@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/urlooker/web/model"
+	"urlooker/web/model"
 )
 
 type UsersResponse struct {

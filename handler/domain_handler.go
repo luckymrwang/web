@@ -3,12 +3,12 @@ package handler
 import (
 	"net/http"
 
-	"github.com/urlooker/web/g"
-	"github.com/urlooker/web/http/errors"
-	"github.com/urlooker/web/http/param"
-	"github.com/urlooker/web/http/render"
-	"github.com/urlooker/web/model"
-	"github.com/urlooker/web/utils"
+	"urlooker/web/g"
+	"urlooker/web/http/errors"
+	"urlooker/web/http/param"
+	"urlooker/web/http/render"
+	"urlooker/web/model"
+	"urlooker/web/utils"
 )
 
 type Url struct {

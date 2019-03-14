@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	. "github.com/urlooker/web/store"
+	. "urlooker/web/store"
 )
 
 type Team struct {

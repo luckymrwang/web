@@ -3,7 +3,7 @@ package model
 import (
 	"github.com/go-xorm/xorm"
 
-	. "github.com/urlooker/web/store"
+	. "urlooker/web/store"
 )
 
 type RelTeamUser struct {

@@ -7,10 +7,10 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/toolkits/str"
 
-	"github.com/urlooker/web/g"
-	"github.com/urlooker/web/http/cookie"
-	"github.com/urlooker/web/http/errors"
-	"github.com/urlooker/web/model"
+	"urlooker/web/g"
+	"urlooker/web/http/cookie"
+	"urlooker/web/http/errors"
+	"urlooker/web/model"
 )
 
 func StraRequired(r *http.Request) *model.Strategy {

@@ -3,8 +3,9 @@ package http
 import (
 	"net/http"
 
+	"urlooker/web/handler"
+
 	"github.com/gorilla/mux"
-	"github.com/urlooker/web/handler"
 )
 
 func ConfigRouter(r *mux.Router) {

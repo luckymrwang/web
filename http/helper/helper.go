@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/urlooker/web/model"
+	"urlooker/web/model"
 )
 
 func Times1000(num int64) int64 {

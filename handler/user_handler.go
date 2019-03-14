@@ -7,13 +7,13 @@ import (
 	"github.com/toolkits/str"
 	//"github.com/toolkits/web"
 
-	"github.com/urlooker/web/g"
-	"github.com/urlooker/web/http/cookie"
-	"github.com/urlooker/web/http/errors"
-	"github.com/urlooker/web/http/param"
-	"github.com/urlooker/web/http/render"
-	"github.com/urlooker/web/model"
-	"github.com/urlooker/web/utils"
+	"urlooker/web/g"
+	"urlooker/web/http/cookie"
+	"urlooker/web/http/errors"
+	"urlooker/web/http/param"
+	"urlooker/web/http/render"
+	"urlooker/web/model"
+	"urlooker/web/utils"
 )
 
 func Register(w http.ResponseWriter, r *http.Request) {
@@ -143,11 +143,11 @@ func UsersJson(w http.ResponseWriter, r *http.Request) {
 	}
 
 	users, err := model.QueryUsers(query, limit)
-	for _, u := range users {
-		t := *u
-		t.Name = "n1ng"
-		users = append(users, &t)
-	}
+	// for _, u := range users {
+	// 	t := *u
+	// 	t.Name = "n1ng"
+	// 	users = append(users, &t)
+	// }
 	errors.MaybePanic(err)
 
 	render.Data(w, users)

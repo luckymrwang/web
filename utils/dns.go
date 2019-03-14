@@ -9,7 +9,7 @@ import (
 
 	"github.com/miekg/dns"
 
-	"github.com/urlooker/web/g"
+	"urlooker/web/g"
 )
 
 func LookupIP(domain string, timeout int) ([]string, error) {

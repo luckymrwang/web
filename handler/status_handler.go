@@ -3,10 +3,10 @@ package handler
 import (
 	"net/http"
 
-	"github.com/urlooker/web/g"
-	"github.com/urlooker/web/http/errors"
-	"github.com/urlooker/web/http/render"
-	"github.com/urlooker/web/utils"
+	"urlooker/web/g"
+	"urlooker/web/http/errors"
+	"urlooker/web/http/render"
+	"urlooker/web/utils"
 )
 
 func GetLog(w http.ResponseWriter, r *http.Request) {

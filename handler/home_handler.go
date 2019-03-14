@@ -6,10 +6,10 @@ import (
 	"github.com/toolkits/str"
 	"github.com/toolkits/web"
 
-	"github.com/urlooker/web/http/errors"
-	"github.com/urlooker/web/http/param"
-	"github.com/urlooker/web/http/render"
-	"github.com/urlooker/web/model"
+	"urlooker/web/http/errors"
+	"urlooker/web/http/param"
+	"urlooker/web/http/render"
+	"urlooker/web/model"
 )
 
 func HomeIndex(w http.ResponseWriter, r *http.Request) {

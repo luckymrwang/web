@@ -1,7 +1,7 @@
 package api
 
 import (
-	"github.com/urlooker/web/model"
+	"urlooker/web/model"
 )
 
 func (this *Web) SaveEvent(event *model.Event, reply *string) error {

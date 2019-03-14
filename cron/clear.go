@@ -4,7 +4,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/urlooker/web/model"
+	"urlooker/web/model"
 )
 
 func DeleteOld() {

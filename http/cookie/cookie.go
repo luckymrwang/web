@@ -3,8 +3,9 @@ package cookie
 import (
 	"net/http"
 
+	"urlooker/web/g"
+
 	"github.com/gorilla/securecookie"
-	"github.com/urlooker/web/g"
 )
 
 var SecureCookie *securecookie.SecureCookie

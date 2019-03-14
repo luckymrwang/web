@@ -1,7 +1,7 @@
 package model
 
 import (
-	. "github.com/urlooker/web/store"
+	. "urlooker/web/store"
 )
 
 type Strategy struct {
